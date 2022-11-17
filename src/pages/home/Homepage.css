@@ -1,0 +1,108 @@
+.homeHero{
+   
+    width: 100%;
+}
+.herolike{ display: flex; margin-top: 15%;}
+.imgandlikeheart{display: flex;}
+@media  only screen and  (max-width: 760px) {
+    .hero{
+        width: 90%;
+        margin: 1% auto 10% auto;
+        border-radius: 30px;
+        background-color: #609DAF;
+        display: flex;
+        overflow: hidden;
+        }
+        .heroimg{display: none;}
+        .bavec{ display: flex; overflow: hidden; position: absolute; right: 0; overflow: hidden; margin-right: 5%;}
+        .bavecL{display: none;}
+        .herotxt{padding: 10%; color: white;}
+        .ht1{font-size: 15px;}
+        .ht2{ margin-top: 5rem; font-size: 26px;}
+        .ht3{font-size: 15px;}
+        .pi1{max-height: 2.5rem;}
+        .pi2{margin-left: 10%; height: 1.5rem;}
+        .h-likes{margin-left: 10%; font-size: 1.2rem;}
+    }
+   
+@media  only screen and  (min-width: 761px) {
+    .homeHero{
+        display: flex;
+        width: 100%;
+    }
+    .hero{
+        width: 50%;
+        height: 50%;
+        background-color: #609DAF;
+        display: flex;
+        border-radius: 30px;
+        overflow: hidden;
+        margin: auto;
+        }
+        .herotxt{ color: white; padding: 5%; z-index: 3; }
+        .ht1{font-size: 15px;}
+        .ht2{ margin-top: 5rem; font-size: 26px;}
+        .ht3{font-size: 15px;}
+        .pi1{max-height: 2.5rem;}
+        .pi2{margin-left: 10%; height: 1.5rem;}
+        .h-likes{margin-left: 10%; font-size: 1rem; white-space: nowrap; }
+        .heroimg{ position: relative; height: 100%;   }
+        .topcha{ width: 40%; margin: auto;}
+        .bavec{ display: none; }
+        .bavecL{ max-height: 50vh;}
+        .he-im{z-index: 40; max-height: 50vh; max-width: 100; position:absolute; bottom: 0%; right: 5%;}   
+}
+@media  only screen and (min-width: 750px) and (max-width: 1000px) {
+    .hero{position: relative; overflow: hidden;}
+    .heroimg{display: none;}
+    .bavec{ display: flex; overflow: hidden; position: absolute; right: 0;}
+        }
+
+
+        /*  Topchart */
+
+.topcha{color: white;}
+.TC-card{ color: gray; background-color: #1A1E1F; height: 6rem; display: flex; margin: 3% 0; padding: 2% 5%; border-radius: 15px;}
+.TC-img{ height: 100%; width: auto; margin: auto 0; }
+.TC-img img{ max-height: 100%; max-width: 100%;}
+.TC-hrt{ border: solid 1px #FACD66 ; border-radius: 50%; height: 40px; width: 40px; display: flex; }
+.tchrt{ margin: auto; height: 20px; width: 20px; }
+.TC-body{ margin: auto 0; display: flex; justify-content: space-between; width: 70%; font-size: small; padding-left: 2%;}
+.OFT2{font-size: smaller; color: rgb(88, 88, 88);}
+
+
+@media  only screen and  (max-width: 760px){
+    .TC-tc{font-size: 18px; margin-left: 1rem;}
+    .TC-card{ height: 10rem; margin: 0.5rem 1rem; position: relative; flex-direction: column; }
+    .TC-img{height: 4rem;}
+    .TC-hrt{ position: absolute; right: 5%; top: 5%; height: 30px; width: 30px; }
+    .tchrt{height: 15px; width: 15px;}
+    .bg-Tc{display: none;}
+    .swi-TC{  width: 100%;}
+    
+}
+@media  only screen and  (min-width: 761px){
+    .swi-TC{ display: none;}
+    .TC-tc{font-size: 24px;}
+}
+
+
+/*  NEW release */
+.NR-card{ color: gray; background-color: transparent; display: block; margin: 3% 30px 3% 0; padding: 2% 5%; border-radius: 15px;}
+.NR-img{ height: 9rem; width: 9rem; margin: auto 0; }
+.NR-img img{max-width: 100%; max-height: 100%;  border-radius: 30px;}
+.NR-title{ font-size: smaller; margin-top: 1%;}
+.NR-slide{width: auto;}
+.NR-nr{color: white;}
+@media  only screen and  (max-width: 760px){
+    .NR-img{ height: 6rem; width: 6rem; margin: auto 0; }
+    .NR-img img{ border-radius: 20px;}
+    .NR-title{ font-size: smaller; margin-top: 1%; white-space: nowrap;}
+   
+    
+}
+@media  only screen and  (min-width: 761px){
+    .NR-slide{width: auto;}  
+    
+}
+
