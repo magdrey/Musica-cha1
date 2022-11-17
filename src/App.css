@@ -5,7 +5,7 @@
  
   width: 100vw;
 }
-.musNav{ padding: 2%; width: 100vw; position: fixed; background-color: #1D2124; z-index: 99; }
+.musNav{ padding: 2%; width: 100vw; position: absolute; }
 .ham{display: none;} 
 .logo{ height: 40px; width: 40px;}
 .navitem-hori{ display: flex; width: 100%;}
@@ -23,7 +23,7 @@
 .Pages{padding-top: 4rem; padding-bottom: 4rem;}
 
 .logo-searchbar{ display: flex; width: 100%; justify-content: space-between; margin: auto 3%;}
-.musNav{ padding: 5% 5%;}
+.musNav{ padding: 5% 5%; position: fixed; background-color: #1D2124; z-index: 99;}
 
 .navhid{
   position: absolute;
