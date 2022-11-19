@@ -14,6 +14,7 @@
 .search-inp{background-color: transparent; border: none;}
 .sch-icon{color: gray; height: 10px; }
 .navsearchbar{margin-left: 3%;}
+.search-inp{color: rgb(224, 221, 221);}
 
 
 @media  only screen and  (max-width: 750px) {
@@ -83,7 +84,8 @@
 .shuff, .rpt{color: gray; font-size: 20px; margin: auto; }
 .shuffT, .rpt1, .rpt2{color: white; font-size: 20px; margin: auto;}
 .back, .next{color: white; font-size: 22px; margin: auto; }
-.play{background-color: #FACD66; font-size: 25px; border-radius: 50%; color: white; margin: auto;}
+.play{background-color: #FACD66;  font-size: 25px; border-radius: 50%; color: white; margin: 0;}
+.ppl{padding-left: 0.5%;}
 .p-ctl-1{margin: auto;}
 .p-ctl-2{width: 100%;  }
 
@@ -96,6 +98,7 @@
   .shuff, .rpt, .back, .shuffT, .rpt1, .rpt2, .playing-vl, .p-ctl-2{ display: none;}
   .playing-ctl{ width: 30%; }
   .ctlp{margin-right: 5px;}
+  .ppl{padding-left: 1%;}
 }
 #seek{width: 100%;
   height: 4px;

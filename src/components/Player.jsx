@@ -133,7 +133,7 @@ function Player() {
           {isplaying ? (
             <BiPause className="play ctlp" onClick={playpause} />
           ) : (
-            <BiPlay className="play ctlp" onClick={playpause} />
+            <BiPlay className="play ctlp ppl" onClick={playpause} />
           )}
           <BiSkipNext className="next ctlp" onClick={skipfront} />
 
